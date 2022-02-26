@@ -13,6 +13,8 @@ export default function Model() {
       <View style={styles.title}>
         <Text style={styles.header}>Model S</Text>
         <Text style={styles.subtitle}>Starting at $69,420</Text>
+      </View>
+      <View style={styles.buttonContainer}>
         <StyledButton
           type="primary"
           content={"Custom Order"}

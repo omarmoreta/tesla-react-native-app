@@ -4,7 +4,7 @@ import StyledButton from "../Button/StyledButton";
 import styles from "./styles";
 
 export default function Model(props) {
-  const { name, price, image, tag, tagLink } = props.car;
+  const { name, image, tag, tagLink } = props.car;
   return (
     <View style={styles.carContainer}>
       <ImageBackground source={image} style={styles.background} />

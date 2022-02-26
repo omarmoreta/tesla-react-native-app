@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
-import Model from "./components/Model";
+import StyledButton from "./components/Button/StyledButton";
+import Model from "./components/Car/ModelS";
 
 export default function App() {
   return (
